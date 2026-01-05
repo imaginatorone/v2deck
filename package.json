@@ -1,0 +1,44 @@
+{
+  "name": "vlessdeck",
+  "version": "1.0.0",
+  "description": "VPN plugin for Steam Deck based on VLESS protocol.",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ov3rk/VLESSDeck"
+  },
+  "license": "MIT",
+  "author": "ov3rk",
+  "keywords": [
+    "decky",
+    "steam-deck",
+    "vpn",
+    "vless",
+    "reality",
+    "xray"
+  ],
+  "dependencies": {
+    "@decky/api": "^1.1.3",
+    "@decky/ui": "^4.8.0",
+    "react-icons": "^5.3.0",
+    "tslib": "^2.7.0"
+  },
+  "devDependencies": {
+    "@decky/rollup": "^1.0.1",
+    "@types/react": "18.3.3",
+    "rollup": "^4.24.0",
+    "typescript": "^5.6.2"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "react",
+        "react-dom"
+      ]
+    }
+  }
+}

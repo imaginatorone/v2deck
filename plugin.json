@@ -1,0 +1,11 @@
+{
+  "name": "v2deck",
+  "author": "imaginatorone",
+  "flags": ["root"],
+  "api_version": 1,
+  "publish": {
+    "tags": ["vpn", "vless", "proxy", "network", "xray"],
+    "description": "VPN plugin for Steam Deck based on VLESS protocol.",
+    "image": "https://raw.githubusercontent.com/imaginatorone/v2deck/main/assets/thumbnail.png"
+  }
+}

@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+release/
+*.zip
+
+# Binary files (downloaded during install)
+bin/xray
+bin/tun2socks
+bin/geoip.dat
+bin/geosite.dat
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+py_modules/
+
+# IDE
+.idea/
+*.swp
+*.swo
+.vscode/
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local config
+.env
