@@ -32,7 +32,7 @@ VPN client for Steam Deck based on VLESS protocol.
 
 ## Installation
 
-### From Decky Store (Recommended)
+### From Decky Store (Recommended) (!!!NOT WORKING, PLUGIN IS STILL NOT IN STORE)
 
 1. Open Decky Loader in Gaming Mode
 2. Go to Store
